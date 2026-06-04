@@ -1,0 +1,421 @@
+body,html{
+    padding: 0;
+    margin: 0;  
+    color: #fff;
+    background-color: #000;
+}
+
+section{
+    scroll-margin-top: 100px;
+    position: relative;
+}
+
+header{
+    border-bottom: 2px solid #333333;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+}
+
+.headerContainer{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.LogoNameGp{
+    display: flex;
+}
+
+.homeVdBackground{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeVd{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeVdBlackCover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.homeCover03{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeCover04{
+    font-size: 70px;
+    margin-top: -60px;
+}
+
+.homeCover05{
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.homeCover06{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #00BFFF;
+}
+
+.NowShowHead{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.NowShowHead:hover{
+    .NowShowH1{
+        padding-bottom: 5px;
+        border-bottom: 2px solid #00BFFF;
+    }
+}
+
+.NowShowContainer{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NowShowBox{
+    width: 370px;
+    background-color:#1F1F1F;
+    border: 2px solid #333333;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.ticketout{
+    color: #FF6B6B;
+}
+
+.navtag{
+    margin-left: 15px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none; 
+    padding:2px;  
+}
+
+.navtag:hover{
+    border-bottom: 2px solid #00BFFF;
+}
+
+.filmPoster{
+    width: 100%;
+}
+
+.ComingSoonFilms{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comingSoonBox{
+    width: 580px;
+    background-color:#1F1F1F;
+    border: 2px solid #333333;
+}
+
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sendUsMessage h2{
+    text-align: center;
+}
+
+.SendUsInformation{
+    padding: 10px 50px 30px;
+}
+
+.SendUsInput{
+    width: 100%;
+    height: 40px;
+} 
+
+.SendUsInput2{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.comingSoonFilmPoster{
+    width: 100%;
+    display: block;
+    transition: opacity 0.4s ease;
+
+}
+
+.posterContainer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.posterContainer a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #333333;
+    margin-top: 100px;
+}
+
+.footerCopyright{ 
+    font-size: 24px;
+}
+
+.ShowFilm{
+    padding: 0 20px 15px;
+}
+
+.NowShowFilmDescription{
+    padding: 20px 0;
+}
+
+.toOfficalWebsite{
+    font-size: 17px;
+    padding: 12px 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #00BFFF;
+}
+
+.ShowFilm h2{
+    width: 100%;
+    height: 80px;
+}
+
+.ShowFilm h3{
+    padding: 20px 0;
+}
+
+table{
+    width: 100%;
+    /* borderlineများ တစ်လိုင်းတည်းထပ်ရန် */
+    border-collapse: collapse; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+th{
+   background-color: #00BFFF; 
+   text-align: center;
+   padding: 15px;
+   font-size: 16px;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #333333;
+}
+
+tr:nth-child(even){
+    background-color: #1F1F1F;
+}
+
+tr:nth-child(odd){
+    background-color: #262626;
+}
+
+.hoverColor:hover{
+    background-color: #555555;
+}
+
+.space{
+    width: 100%;
+    height: 70px;
+}
+
+.comingSoonMovieDescription{
+    margin-bottom: 30px;
+}
+
+.comingSoonReleaseDate{
+    margin: 30px 0;
+}
+
+.scheduleContainer{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.scheduleContainer p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.scheduleTd {
+   padding: 15px 3px;
+    border-right: 1px solid #555555;
+}
+
+.FilmShortkeys{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.shortkeyBut{
+    padding: 3px;
+    border: 1px dotted ;
+    border-radius: 5px;
+}
+
+.showclock{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.margin5px {
+    margin-right: 15px;
+}
+
+.but1{
+    border-color: #E19872;
+    background-color: #FEE6D6;
+    color: #68260B;
+}
+
+.but2{
+    border-color: #89A3D9;
+    background-color: #E4ECFC;
+    color: #021948;
+}
+
+.but3{
+    border-color: #C9D3C4;
+    background-color: #E3ECD7;
+    color: #0A3509;
+}
+
+.h2Color{
+    color: #00BFFF;
+}
+
+.borderEffect{
+    border: 2px solid transparent;
+}
+
+.borderEffect:hover{
+    border: 2px solid #00BFFF; /* အပြာနုရောင် ဘောင်လေးပေါ်လာမယ် */
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* အရောင်လေး လက်နေတဲ့ ပုံစံ */
+}
+
+.iconChange{
+    font-size: 24px;
+    padding-right: 4px;
+    color: #00BFFF;
+}
+
+.SNSicon{
+    font-size: 30px;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 13px;
+}
+
+.fbicon:hover{
+    color: #0861F2;
+}
+
+.instrgramicon:hover{
+    color: #EB743E;
+}
+
+.youtubeicon:hover{
+    color: #FF0033;
+}
+
+.filmPosterConatainer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.posterContainer a {
+    display: block;
+}
+
+.comingfilmHover{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 0;
+    display: none;
+}
+
+.comingfilmHover:hover{
+    display: inline-block;
+}
+
+.hoverTrailer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* ပုံမှန်အချိန်တွင် မမြင်ရပါ */
+    transition: opacity 0.5s ease; /* Hover လုပ်ချိန်တွင် ဖြည်းဖြည်းချင်း ပေါ်လာစေရန် */
+    pointer-events: none; /* အရေးကြီးဆုံး: Video ကို Click နှိပ်မရစေဘဲ <a> tag ကိုသာ နှိပ်မိစေရန် */
+}
+
+.posterContainer:hover .hoverTrailer {
+    opacity: 1;
+}

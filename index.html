@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prism Cinema</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <div class="LogoNameGp">
+                <img src="Img/logo.png" alt="Prism Cinema Logo" class="logo">
+                <h1>Prism Cinema</h1>
+            </div>
+            <nav>
+                <a href="#Home" class="navtag">ホーム</a>
+                <a href="#NowShowing" class="navtag">上映中</a>
+                <a href="#ComingSoon" class="navtag">公開予定</a>
+                <a href="#Schedule" class="navtag">スケジュール</a>
+                <a href="#Contact" class="navtag">お問い合わせ</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--home section ရေးသားခြင်း-->
+        <section id="Home">
+            <div class="homeVdBackground">
+                <video src="Img/cinemBgVd.mp4" class="homeVd" autoplay muted loop type="video/mp4">
+                </video>
+            </div>
+            <div class="homeVdBlackCover"></div>
+            <div class="homeCover03">
+                <h1 class="homeCover04">映画の魔法を体感しよう</h1>
+                <h2 class="homeCover05">心を動かし、心躍るストーリーの世界へ。最高の感動を、ここで。</h2>
+                <a href="#NowShowing" class="homeCover06">
+                    上映作品一覧
+                </a>
+            </div>
+        </section>
+        <div class="space"></div>
+        <!--now showing section ရေးသားခြင်း-->
+        <section id="NowShowing">
+            <!--Now showing ခေါင်းစဉ်ရေးခြင်း-->
+            <div class="NowShowHead">
+                <span class="NowShowH1">上映中</span>
+            </div>
+            <div class="NowShowContainer">
+                <!--ပြသမယ့်ဇာတ်ကားတစ်ကားချင်းစီကို coloumn ခွဲပြခြင်း-->
+                <div class="NowShowBox">
+                    <a href="https://www.youtube.com/watch?v=abplnDyLohY&t=54s" target="_blank">
+                        <img src="Img/mudras calling.jpg" class="filmPoster mudraposter" alt="Image of Mudra's Calling">
+                    </a>
+                   <div class="ShowFilm">
+                        <h2>မုဒြာရဲ့ခေါ်သံ<br>ムドラーズ・コーリング</h2>
+                        <p class="NowShowFilmDescription">生まれ故郷に戻り、ミャンマーの伝統音楽を学ぶ青年ジェイデンと、ガイドのニンズィの間に生まれる、繊細で美しい絆、そしてミャンマーの豊かな文化美を描いた素晴らしい名作です。</p>
+                        <a href="" class="toOfficalWebsite">公式サイト</a>
+                        <h3>今日のショウタイム</h3>
+                        <table>
+                            <tr class="hoverColor">
+                                <th>時間</th>
+                                <th>スクリーン</th>
+                                <th>空席状況</th>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>10:00</td>
+                                <td>スクリーン 1</td>
+                                <td>空席あり</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>13:00</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>16:00</td>
+                                <td>スクリーン 2</td>
+                                <td class="ticketout">満席</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>19:00</td>
+                                <td>スクリーン 1</td>
+                                <td>空席あり</td>
+                            </tr>
+                        </table>
+                    </div> 
+                </div>
+                <!--ပြသမယ့်ဇာတ်ကားတစ်ကားချင်းစီကို coloumn ခွဲပြခြင်း-->
+                <div class="NowShowBox">
+                   <a href="https://www.youtube.com/watch?v=CsxkouRl7Yo" target="_blank">
+                        <img src="Img/konan.png" class="filmPoster" alt="Image of Detective Conan: Fallen Angel of the Highway">
+                   </a>
+                   <div class="ShowFilm">
+                        <h2>名探偵コナン ハイウェイの堕天使</h2>
+                        <p class="NowShowFilmDescription">横浜で開催されるバイクの祭典に突如現れた謎の暴走バイク「ルシファー」。神奈川県警の「風の女神」萩原千速との激しいチェイス、そして過去の記憶が交錯する中、コナンが真実に迫るシリーズ第29弾の最新作です。</p>
+                        <a href="" class="toOfficalWebsite">公式サイト</a>
+                        <h3>今日のショウタイム</h3>
+                        <table>
+                            <tr class="hoverColor">
+                                <th>時間</th>
+                                <th>スクリーン</th>
+                                <th>空席状況</th>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>10:00</td>
+                                <td>スクリーン 2</td>
+                                <td>空席あり</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>13:00</td>
+                                <td>スクリーン 2</td>
+                                <td class="ticketout">満席</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>16:00</td>
+                                <td>スクリーン 3</td>
+                                <td>空席あり</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>19:00</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </table>
+                    </div> 
+                </div>
+                <!--ပြသမယ့်ဇာတ်ကားတစ်ကားချင်းစီကို coloumn ခွဲပြခြင်း-->
+                <div class="NowShowBox">
+                   <a href="https://www.youtube.com/watch?v=m08TxIsFTRI" target="_blank">
+                        <img src="Img/project_hail_mary_370x450.png" class="filmPoster" alt="Image of Project Hail Mary">
+                   </a>
+                   <div class="ShowFilm">
+                        <h2>Project Hail Mary<br>プロジェクト・ヘイル・メアリー</h2>
+                        <p class="NowShowFilmDescription">記憶喪失のまま、はるか遠くの宇宙船でたった一人目覚めた科学者ライランド・グレース。人類滅亡の危機を救うため、科学の知識を武器に絶望的なミッションに挑む、奇跡と感動のSF超大作です。</p>
+                        <a href="" class="toOfficalWebsite">公式サイト</a>
+                        <h3>今日のショウタイム</h3>
+                        <table>
+                            <tr class="hoverColor">
+                                <th>時間</th>
+                                <th>スクリーン</th>
+                                <th>空席状況</th>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>10:00</td>
+                                <td>スクリーン 3</td>
+                                <td class="ticketout">満席</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>13:00</td>
+                                <td>スクリーン 4</td>
+                                <td>空席あり</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>16:00</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr class="hoverColor">
+                                <td>19:00</td>
+                                <td>スクリーン 4</td>
+                                <td>空席あり</td>
+                            </tr>
+                        </table>
+                    </div> 
+                </div>  
+            </div>
+        </section>
+        <div class="space"></div>
+        <!--coming soon section ရေးသားခြင်း-->
+        <section id="ComingSoon">
+            <!--Coming Soon ခေါင်းစဉ်ရေးခြင်း-->
+            <div class="NowShowHead">
+                <span class="NowShowH1">公開予定</span>
+            </div>
+            <!--Coming Soon Films များကို ဖော်ပြခြင်း-->
+            <div class="ComingSoonFilms">
+                <!--coming soon ပထမရုပ်ရှင်-->
+                <div class="comingSoonBox">
+                    <!--film poster ဖော်ပြခြင်း-->
+                    <div class="posterContainer">
+                        <a href="https://www.youtube.com/watch?v=LA6xYjEw5Uk" target="_blank" rel="noopener noreferrer">
+                        <img src="Img/TheBurmeseHarp.jpg" alt="Image of The Burmese Harp film" class="comingSoonFilmPoster">
+                        <iframe class="hoverTrailer" src="https://www.youtube.com/embed/LA6xYjEw5Uk?autoplay=1&mute=1&loop=1&playlist=LA6xYjEw5Uk" autoplay;  allowfullscreen>
+                        </iframe>
+                        </a>
+                    </div>
+                    <!--film အကြောင်း အောက်တွင် စာသားဖော်ပြခြင်း-->
+                    <div class="ShowFilm">
+                        <h2>
+                            မြန်မာ့စောင်း (The Burmese Harp)
+                            <br>
+                            ビルマの竪琴
+                        </h2>
+                        <p class="comingSoonMovieDescription">第二次世界大戦末期のビルマを舞台に、竪琴の名手である日本兵・水島と戦友たちの絆を描いた不朽の名作。僧侶となり異国の地に残された遺骨を収集するため旅を続ける水島の運命と、魂を揺さぶる竪琴の調べを描いた感動の物語です。</p>
+                        <a href="" class="toOfficalWebsite">公式サイト</a>
+                        <h4 class="comingSoonReleaseDate">公開予定: 2026年 秋 (Release Date: Fall 2026)</h4>
+                    </div>
+                </div>
+                <!--coming soon ဒုတိယရုပ်ရှင်-->
+                <div class="comingSoonBox">
+                    <!--film poster ဖော်ပြခြင်း-->
+                    <div class="posterContainer">
+                        <a href="https://www.youtube.com/watch?v=5Z17CROP3wQ" target="_blank" rel="noopener noreferrer">
+                        <img src="Img/sevensamurai.webp" alt="Image of Seven Samurai" class="comingSoonFilmPoster">
+                        <iframe class="hoverTrailer" src="https://www.youtube.com/embed/5Z17CROP3wQ?autoplay=1&mute=1&loop=1&playlist=5Z17CROP3wQ" autoplay; allowfullscreen>
+                        </iframe>
+                        </a>
+                    </div>
+                    <!--film အကြောင်း အောက်တွင် စာသားဖော်ပြခြင်း-->
+                    <div class="ShowFilm">
+                        <h2>
+                            ဆာမူရိုင်းခုနှစ်ယောက် (Seven Samurai)
+                            <br>
+                            七人の侍
+                        </h2>
+                        <p class="comingSoonMovieDescription">野盗の襲撃に苦しむ農民たちに雇われた7人の侍が、村を守るために壮絶な戦いを繰り広げる。黒澤明監督による、世界映画史に残る最高傑作のアクション時代劇です。</p>
+                        <br>
+                        <a href="" class="toOfficalWebsite">公式サイト</a>
+                        <h4 class="comingSoonReleaseDate">公開予定: 2026年 秋 (Release Date: Fall 2026)</h4>
+                    </div>
+                </div>
+            </div>         
+        </section>
+        <div class="space"></div>
+        <!--schedule section ရေးသားခြင်း-->
+        <section id="Schedule">
+            <div class="scheduleContainer">
+                <!--Weekly Showtimes ခေါင်းစဉ်ရေးခြင်း-->
+                <div class="NowShowHead">
+                    <span class="NowShowH1">スケジュール</span>
+                </div>
+                <div class="FilmShortkeys">
+                    <div><span class="shortkeyBut margin5px but1">MUD</span>ムドラーズ・コーリング</div>
+                    <div><span class="shortkeyBut margin5px but2">DET</span>名探偵コナン ハイウェイの堕天使</div>
+                    <div><span class="shortkeyBut margin5px but3">PHM</span>プロジェクト・ヘイル・メアリー</div>
+                </div>
+                <table>
+                    <tr>
+                        <th>時間</th>
+                        <th>日曜日 31.05.26</th>
+                        <th>月曜日 01.06.26</th>
+                        <th>火曜日 02.06.26</th>
+                        <th>水曜日 03.06.26</th>
+                        <th>木曜日 04.06.26</th>
+                        <th>金曜日 05.06.26</th>
+                        <th>土曜日 06.06.26</th>
+                    </tr>
+                    <tr>
+                        <td class="scheduleTd showclock">10:00</td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="scheduleTd showclock">13:00</td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="scheduleTd showclock">16:00</td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="scheduleTd showclock">19:00</td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                            <span class="shortkeyBut but3">PHM</span>
+                        </td>
+                        <td class="scheduleTd borderEffect">
+                            <span class="shortkeyBut but1">MUD</span>
+                            <span class="shortkeyBut but2">DET</span>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+        </section>
+        <div class="space"></div>
+        <!--contact section ရေးသားခြင်း-->
+        <section id="Contact">
+            <!--Contact Us ခေါင်းစဉ်ရေးခြင်း-->
+            <div class="NowShowHead">
+                <span class="NowShowH1">お問い合わせ</span>
+            </div>
+            <!--Contact Us ဇယားကွက်များကို ဖော်ပြခြင်း-->
+            <div class="ComingSoonFilms">
+                <!--Get in touch ဇယားကွက်-->
+                <div class="comingSoonBox">
+                    <div class="getInTouch">
+                        <h2 class="h2Color">店舗情報</h2>
+                        <p>
+                            <i class="fas fa-map-marker-alt iconChange"></i>
+                            〒530-0001 大阪府大阪市北区梅田1丁目2-2
+                        </p>
+                        <p>
+                            <i class="fas fa-phone iconChange"></i>
+                            (06) 1234-5678
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope iconChange"></i>
+                            info@prismcinema.jp
+                        </p>  
+                        <p>
+                            <i class="fab fa-facebook SNSicon fbicon"></i>
+                            <i class="fab fa-instagram SNSicon instrgramicon"></i>
+                            <i class="fab fa-youtube SNSicon youtubeicon"></i>
+                        </p>
+                    </div>
+                </div>
+                <!--contact Us / Send us a message ဇယားကွက်ဖော်ပြခြင်း-->
+                <div class="comingSoonBox">
+                    <div class="sendUsMessage">
+                        <h2 class="h2Color">お問い合わせフォーム</h2>
+                        <div class="SendUsInformation">
+                            <p>お名前</p>
+                            <input type="text" class="SendUsInput">
+                            <p>メールアドレス</p>
+                            <input type="text" class="SendUsInput">
+                            <p>件名</p>
+                            <input type="text" class="SendUsInput">
+                            <p>メッセージ</p>
+                            <textarea name="" id="" class="SendUsInput2"></textarea>
+                            <br>
+                            <a href="" class="toOfficalWebsite">送信する</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </main>
+    <footer>
+        <p class="footerCopyright">© 2026 copyright Prism Cinema</p>
+    </footer>
+</body>
+</html>
